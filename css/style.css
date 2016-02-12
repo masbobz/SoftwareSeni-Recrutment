@@ -12,19 +12,25 @@ body{margin: 0 0; background-color: #f0f0f0;}
 .content{
 	padding: 20px 15px 20px 15px;
 	/*background-color: white;*/
-	margin: 0 100px 20 100px;
+	margin: 0 100px 50px 100px;
 	/*border: 1px solid #dcdcdc;*/
-	/*height: 650px;*/
+	height: 450px;
 }
 .content_divider{
 	padding-top: 20px;
 	border-top: 1px solid #dcdcdc;
 }
 .footer{
-	text-align: center;
-	margin: 30px 0 30px 0;
-	color: #666666;
+	/*width: 85.2%;*/
+	background-color: #434446;
+	color: white;
+	/*margin: 30px 0 0 0;
+	color: white;
 	font-size: 14px;
+	position: relative;*/
+	padding: 10px 150px 10px 150px;
+	position: static;
+
 }
 ul {
     position: relative;
@@ -74,6 +80,7 @@ li a:hover {
 	border: 1px solid #e5e7e6;
 	border-radius: 5px;
 	background-color: white;
+	color: #666666;
 	/*box-shadow: 1px 1px 1px grey;*/
 }
 .kolom p{
@@ -92,6 +99,7 @@ li a:hover {
 	.content{
 		padding: 20px 15px 20px 15px;
 		margin: 0 10px 20 10px;
+		height: 2500px;
 	}
 }
 @media (min-width: 320px) {
